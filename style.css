@@ -1,0 +1,63 @@
+body {
+	color: black;
+	text-align: top;
+	background-image: url("images/jap.jpg");
+	background-attachment: fixed;	
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-size: 2.0em;
+	color: black;
+}
+
+h2 {
+ 	font-size: 1.5em; 
+}
+
+p {
+	font-size:1.0em; 
+}
+
+* {
+	font-family: sans-serif,impact,arial,"Arial Black",Verdana;
+}
+
+strong {
+	font-weight: bold;
+}
+
+
+
+.demiPage {
+	
+	width: 50%;
+	text-align: left;
+}
+
+.imageflottante {
+   
+    float: left;
+}
+
+.a_droite
+{
+	float: rigth;
+
+}
+
+.souligne
+{
+	text-decoration: underline;
+	text-decoration-thickness: auto;
+}
+
+@media all and (max-width: 1024px) and (max-width: 1280px)
+
+
+
+
+
+
+
+
