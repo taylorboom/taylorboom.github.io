@@ -1,0 +1,238 @@
+*
+{	
+	font-family: sans-serif,impact,arial,"Arial Black",Verdana;
+	padding:0;
+	margin:0;
+}
+
+body 
+{
+	
+}
+
+h1 
+{
+	
+}
+
+h2
+{
+	
+}
+
+h3
+{
+
+}
+
+.total 
+{
+	display: flex;	
+}
+
+.titre_centrer 
+{	
+	margin: 35PX;
+	display: flex-start;
+    text-align: flex;
+}
+
+.souligne-jaune
+{
+	text-decoration: underline yellow;
+
+}
+
+.contenu
+{	
+	margin: 35PX;
+	display: flex-start;
+    text-align: flex;
+}
+
+.contenu-form
+{
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	
+}
+.ligne-cv
+{  
+	display:flex;
+	flex-direction: row;
+	padding: 5px;
+}
+.ligne-cv-date
+{
+	width: 20%;
+	
+}
+.icone-date
+{
+	display: flex;
+
+}
+
+.icone-date i
+{
+	padding-right: 3px;
+
+}
+
+.ligne-cv-contenu
+{
+	width: 80%;
+
+}
+
+.contenu-recommandation
+{	 
+	 display:flex;
+	 justify-content: space-around;
+	 align-items: flex-end;
+	 
+}
+	
+.contenu-recommandation > div
+{	
+ 	padding: 10px;
+}
+
+
+.colonebas
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.block_image
+{
+    display: flex;
+    justify-content: center
+}
+
+
+.bandeau 
+{
+	background-color: #ffca00; 
+	width: 45%;
+}
+
+.icone_espace
+{ 	margin:2.5px;
+	display: flex; 
+	justify-content: space-around;
+}
+
+span.mot_jaune 
+{
+	color: #FFD700;
+}
+
+strong 
+{
+	font-weight: bold;
+}
+
+.propos 
+{
+	justify-content: 
+	flex-start;
+	text-align: left;
+	font-size: 1.0em
+}
+
+.images_arrondie
+{
+	
+	overflow:hidden;
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	
+}
+
+.shadow
+{
+	
+	text-shadow: 0px 0px 9px #777;
+	color: #FFD700;
+	background-color: #5a5a5a;
+	text-align: center;
+	opacity: 6;
+}
+
+.souligne
+{
+
+	border-bottom:  1px solid #FFD700; 
+	
+
+}
+
+.detail-contact
+{
+	padding: 5px;
+	
+}
+ 
+
+@media all and (max-width: 800px)
+{
+
+	.total
+	{
+
+		flex-direction: column;
+	}
+	
+	.bandeau
+	{
+		width: 100%;
+
+	}
+
+	.contenu-recommandation
+	{	
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+@media all and (max-width: 600px) 
+{
+
+
+	
+	
+
+	.ligne-cv
+	{
+		flex-direction: column;
+
+	}
+
+	.contenu-recommandation
+	{	
+	
+		flex-direction: column;
+		align-items: flex-start;
+		
+	}
+
+
+
+}
+
+
+
+
